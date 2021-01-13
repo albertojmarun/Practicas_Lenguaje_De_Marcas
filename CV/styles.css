@@ -1,10 +1,73 @@
+*{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
 body{
-    background-color: blue;
+    background-color: lightskyblue;
+    margin: 0% 20%;
+}
+
+main {
+    background-color: whitesmoke;
+}
+
+td[rowspan ="6"] > img{
+    width: 88%;
+}
+
+th {
+    width: 100%;
+    text-align: center;
+}
+
+td + td{
+    font-weight: bold;
 }
 
 h1{
+    padding-top: 1%;
     text-align: center;
     color: red;
 }
 
-p
+p{
+    display: flex;
+}
+
+table{
+    width: 100%;
+}
+
+.table_title, h2{
+    padding: 1% 0%;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-weight: bolder;
+}
+
+ul li{
+    margin-left: 5%;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#foto_perfil{
+    width: 20%;
+    padding: 1% 6%;
+}
+
+#conocimientos{
+    display: flex;
+    flex-direction: row;
+}
+
+#conocimientos div li{
+    font-weight: 200px;
+}
+
+#conocimientos div{
+    width: 50%;
+}
