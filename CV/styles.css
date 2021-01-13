@@ -10,6 +10,7 @@ body{
 
 main {
     background-color: whitesmoke;
+    padding-bottom: 1%;
 }
 
 td[rowspan ="6"] > img{
