@@ -1,0 +1,61 @@
+@font-face{
+    font-family: "Food Font";
+    src: url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+}
+
+*{
+    font-family: 'Lobster', cursive;
+}
+
+body{
+    background-color: #E8E8E8;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1{
+}
+
+h2{
+    text-decoration: underline;
+    color: beige;
+}
+
+main{
+    background-color: #8C1713;
+    margin: 0% 10%;
+}
+
+div > p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+table{
+    width: 76%;
+    margin: 0% 12%;
+}
+
+th[colspan="2"]{
+    text-align: right;
+}
+
+td > img{
+    width: 300px;
+}
+
+table, tr, th, td{
+    border: solid black;
+    text-align: center;
+    color: white;
+}
+
+th, td{
+    padding: 0% 10%;
+}
+
+div > p{
+    color: white;
+}
