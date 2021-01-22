@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 @font-face{
     font-family: "Food Font";
     src: url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
@@ -16,9 +20,11 @@ h1, h2 {
 }
 
 h1{
+    word-spacing: 1rem;
 }
 
 h2{
+    letter-spacing: 0.2rem;
     text-decoration: underline;
     color: beige;
 }
@@ -34,16 +40,20 @@ div > p{
 }
 
 table{
-    width: 76%;
-    margin: 0% 12%;
+    width: 80%;
+    margin: 0% 9%;
 }
 
-th[colspan="2"]{
-    text-align: right;
+th{
+    text-transform: uppercase;
+}
+
+td{
+    text-transform: lowercase;
 }
 
 td > img{
-    width: 300px;
+    width: 250px;
 }
 
 table, tr, th, td{
@@ -52,10 +62,51 @@ table, tr, th, td{
     color: white;
 }
 
+tr > td{
+    width: 30%;
+}
+
 th, td{
-    padding: 0% 10%;
+    padding: 0% 5%;
 }
 
 div > p{
     color: white;
+}
+
+#vinos_list{
+    margin: 0% 3%;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    line-height: 2rem;
+}
+
+#vinos_list div{
+    width: 25%;
+}
+
+#vinos_list div ul{
+    list-style-image: url(images/wine.png);
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8C1000;
+}
+
+header ul li{
+    padding-left: 3%;
+    float: left;
+}
+
+header ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
