@@ -1,18 +1,22 @@
+/*
+        Se aplican estas propiedades al Body para que no hayan margenes
+    en ningun sitio de los extremos de la página web.
+*/
 body{
     margin: 0;
     padding: 0;
+    background-color: #E8E8E8;
 }
+
+/* Se importa la fuente Lobster de Google */
 @font-face{
     font-family: "Food Font";
     src: url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 }
 
+/* Se le aplica este tipo de fuente a toda la Página Web. */
 *{
     font-family: 'Lobster', cursive;
-}
-
-body{
-    background-color: #E8E8E8;
 }
 
 h1, h2 {
@@ -29,8 +33,36 @@ h2{
     color: beige;
 }
 
+li + p{
+    padding-left: 2%;
+}
+
+div table{
+    width: 90%;
+    margin: 0% 5%;
+}
+
+div table tbody tr td{
+    width: 25%;
+}
+
+#tartar table tr th{
+    color: red;
+}
+
+div table tr td > img{
+    width: 100%;
+}
+
+#risotto tr:first-child th{
+    color: green;
+}
+
+#Antipasti ol{
+    list-style-type: upper-latin;
+}
 main{
-    background-color: #8C1713;
+    background-color: burlywood;
     margin: 0% 10%;
 }
 
@@ -40,8 +72,11 @@ div > p{
 }
 
 table{
+    caption-side: top;
     width: 80%;
     margin: 0% 9%;
+    empty-cells: hide;
+    overflow: hidden;
 }
 
 th{
@@ -62,7 +97,7 @@ table, tr, th, td{
     color: white;
 }
 
-tr > td{
+#Dolci tr > td{
     width: 30%;
 }
 
@@ -75,19 +110,32 @@ div > p{
 }
 
 #vinos_list{
-    margin: 0% 3%;
     display: flex;
     flex-direction: row;
     text-align: left;
-    line-height: 2rem;
+    line-height: 3rem;
+    list-style-type: square;
 }
 
 #vinos_list div{
     width: 25%;
 }
 
+#vinos_list div ul li{
+    color: white;
+}
+
+#vinos_list div ul li:first-child{
+    color: #028e44;
+}
+
+#vinos_list div ul li:last-child{
+    color: RED;
+}
+
 #vinos_list div ul{
     list-style-image: url(images/wine.png);
+    list-style-position: inside;
 }
 
 header ul {
@@ -110,3 +158,22 @@ header ul li a{
     padding: 14px 16px;
     text-decoration: none;
 }
+
+tbody tr th:first-child, tr td:first-child{
+    background-color: #028e44;
+}
+
+tbody tr th:first-child{
+    color: green;
+}
+
+tbody tr th:last-child{
+    color: red;
+}
+
+/*
+
+    PSEUDO ELEMENTOS
+
+    
+*/
