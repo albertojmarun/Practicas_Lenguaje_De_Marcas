@@ -171,6 +171,10 @@ tbody tr th:last-child{
     color: red;
 }
 
+tbody tr th:last-child{
+    color: white;
+}
+
 /*
 
     PSEUDO ELEMENTOS
