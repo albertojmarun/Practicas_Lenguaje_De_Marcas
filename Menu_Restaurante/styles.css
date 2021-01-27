@@ -4,94 +4,116 @@
     src: url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 }
 
-/* Se le aplica este tipo de fuente a toda la Página Web. */
-*{
-    font-family: 'Lobster', cursive;
-}
-
 /*
-        Se aplican estas propiedades al Body para que no hayan margenes
-    en ningun sitio de los extremos de la página web.
+    (color: white) Se le asigna el color blanco a todos los textos del documento.
+    (font-family: 'Lobster', cursive) Esta fuente importada, se le asigna a todos los elementos que sean hijos de body y que tengan la forma cursiva.
+    (margin: 0; padding: 0) Con esto se evita que se cree un borde en los exteriores de la página web.
+    (backgroun-image: url(images/turismo_italia.jpg)) Esta imagen será el fondo de la página web.
 */
 body{
+    color: white;
+    font-family: 'Lobster', cursive;
+    text-align: center;
     margin: 0;
     padding: 0;
     background-image: url(images/turismo_italia.jpg);
 }
 
-main{
-    background-color: burlywood;
-    margin: 0% 10%;
-}
-
 header{
-    padding: 0% 10%;
+    padding: 0% 10%; /* Arriba y abajo no queremos ninguna separación, pero a los lados, se quiere una separación del 10% en ambos lados. */
 }
 
+main{
+    background-color: #924902; /* Es el color que se le va aplicar al fondo de la etiqueta <main> */
+    margin: 0% 10%; /* Arriba y abajo no queremos ningun margen, pero a los lados, se quiere una separación del 10% en ambos lados. */
+}
+
+/* Tanto en la cabecera como en el pie de pagina se deben aplicar los siguientes estilos */
 header ul, footer{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #8C1000;
+    list-style-type: none; /* No llevan ninguna viñeta */
+    margin: 0; /* Margen en 0 (Arriba, abajo, izquierda y derecha) */
+    padding: 0; /* Espaciado en 0 (Arriba, abajo, izquierda y derecha) */
+    overflow: hidden; /* Si se monta uno encima de otro, no muestre lo que esta sobremontado */
+    background-color: #8C1000; /*  El color de fondo */
 }
 
 header ul li{
-    padding: 0% 7%;
-    float: left;
+    padding: 0% 6%; /* Se mantiene una distancia entre los lados de un 6% de cada elemento (derecha e izquierda) */
+    float: left; /* Se alinean a la izquierda los elementos */
 }
 
+/* ESTE ESTILO CORRESPONDE A LOS TEXTOS DE LOS ELEMENTOS EN LA CABECERA */
 header ul li a{
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    display: block; /* Van en bloque */
+    padding: 14px 16px; /* Tienen un espaciado de 14px arriba y abajo, mientras que a la izquierda y la derecha son de 16px */
+    text-decoration: none; /* no deben de tener ninguna decoración */
 }
-
+/* Cuando se visita un elemento se aplica este estilo */
 header ul li a:visited{
-    text-decoration: underline;
-}
-
-h1, h2 {
-    text-align: center;
+    text-decoration: underline; /* Se decora el texto poniendole una raya debajo (del mismo color que el del texto) */
 }
 
 h1{
-    word-spacing: 1rem;
+    word-spacing: 1rem; /*Deben de tener un espaciado de una letra entre palabras como mínimo (el tamaño es en relación al elemento <html>)*/
 }
 
 h2{
-    letter-spacing: 0.2rem;
-    text-decoration: underline;
-    color: beige;
+    letter-spacing: 0.2rem; /* El tamaño entre letras es de 0.2 al tamaño correspondiente a la letra del elemento <html> */
+    text-decoration: underline; /*  */
+    color: beige; /* El color de la letra será beige */
 }
 
+/* A todos los elementos con etiqueta a el color de su letra es blanco*/
+a{
+    color: white;
+}
+
+/* A la lista ordenada de los Antipastos se le aplica el siguiente estilo */
 #Antipasti ol{
-    padding: 0% 10%;
-    list-style-type: upper-latin;
+    color: black;/* El color de la letra del texto será negro */
+    text-align: left; /* El texto se debe alinear a la izquierda */
+    padding: 0% 10%; /* Se aplica un espaciado a la izquierda y derecha de 10% con respecto al elemento padre */
+    list-style-type: upper-latin;  /* La lista en vez de tener número como es la forma predeterminada, tendrán letras latinas en mayuscula */
 }
 
+/* El espaciado a la izquierda de los parrafos que sean hermanos de un elemento lista será de un 2% con respecto al elemento padre */
 #Antipasti ol li + p{
     padding-left: 2%;
 }
 
-div table tbody tr td{
+/* El ancho de las celdas de las tablas y los div de la lista de vinos deben ser del 25% con respecto al ancho del elemento padre */
+table tbody tr td, #vinos_list div{
     width: 25%;
 }
 
-div table tr td > img{
-    width: 100%;
+/* Se le aplican a las imagenes dentro de una celda de una tabla */
+td > img{
+    max-width: 100%; /* El ancho máximo que puede tener una imagen es el 100% del tamano de la celda, no puede sobrepasarla */
 }
 
+/*
+    (font-weight: lighter) Se supone que hace que la letra se vea mas delgada, pero el cambio notado, es minimo.
+    (font-size: 1.5rem) Se aplica un aumento de +0.5rem con respecto a la letra del elemento padre que es <html>
+*/
+
 div > p{
-    text-align: center;
+    font-weight: lighter;
     font-size: 1.5rem;
 }
 
+/*
+    A todas las tablas se les aplican los siguiente estilos.
+    (box-sizing: border-box)
+    (caption-side: bottom) En el html se debe indicar dentro de la tabla la etiqueta caption, la cual no importa si esta al final, al principio o en el medio, hará caso al css si se le asigna.
+    (width: 90%) Se les asignan un tamaño de 90% con respecto al elemento padre.
+    (margin: 0% 5%) Siempre al diseñador de esta pagina web le gusta jugar con porcentajes, por ende se le asigna 0% arriba y abajo y a los lados un 5%.
+    (empty-cells: hide) A todas las celdas que no tengan contenido, que las oculte, se le ha asignado este valor, debido a que en la tabla de dulces hay una celda vacia en el <thead>.
+    (overflow: hidden) En caso de que el contenido se salga del tamaño de la caja, no se muestra y no se escribe encima de otro elemento.
+    (max-width: 1500px; min-width: 500px) En caso de que los tamaños de la pagina web sean muy grandes o muy pequeños, se aplican estas dos restricciones tanto como para el maximo como el minimo.
+*/
 table{
     box-sizing: border-box;
-    caption-side: top;
+    caption-side: bottom;
     width: 90%;
     margin: 0% 5%;
     empty-cells: hide;
@@ -101,68 +123,70 @@ table{
 }
 
 th{
-    text-transform: uppercase;
+    text-transform: uppercase; /* Todos las celdas de la cabecera de las tablas, deben tener todas sus letras en mayuscula, sin importar como esten escritas */
 }
 
 td{
-    text-transform: lowercase;
+    text-transform: lowercase; /* Todos las celdas del cuerpo de las tablas, deben tener todas sus letras en minuscula, sin importar como esten escritas */
 }
 
-/*
-    MODIFICA LA PRIMERA LETRA DE TEXTO DE LOS CONTENEDORES DE LAS CAJAS QUE NO SON HEAD
-    DANDOLES UN TOQUE DE ELEGANCIA  
-*/
+/* MODIFICA LA PRIMERA LETRA DE TEXTO DE LOS CONTENEDORES DE LAS CAJAS QUE NO SON HEAD */
 td > p::first-letter{
-    font-size: 2rem;
+    font-size: 2rem; /* Se le asgina un valor dle doble con respecto al tamaño de una letra del contenedor <html> */
 }
 
-td > img{
-    width: 250px;
-}
-
+/*  Se le aplica este estilo tanto a las tablas, columnas, celdas de cabecera, como celdas de cuerpo */
 table, tr, th, td{
-    border-style: dotted;
-    border-color: black;
-    text-align: center;
-    color: white;
-    border-collapse: collapse;
+    border-style: dotted; /* Borde que sea punteado */
+    border-color: black; /* Color del borde negro */
+    border-collapse: collapse; /* Los bordes colapsan */
 }
 
+/* Se aplica especificamente a los td que sean hijos directos de tr */
 #Dolci tr > td{
-    width: 30%;
+    width: 30%; /* Les asigna un ancho de 30% con respecto al tamaño del elemento padre */
 }
 
+/* Se le aplican tanto a las celdas de la cabecera como a las del cuerpo de las tablas */
 th, td{
-    padding: 0% 5%;
+    padding: 0% 5%; /* Se les asgina un espaciado de 5% en los lados, arriba y abajo no hay ningun espaciado. */
 }
 
-div > p{
-    color: white;
-}
-
+/* Se le aplican a los primeros hijos de tr (independientemente si son th o td)*/
 tbody tr th:first-child, tr td:first-child{
     background-color: #028e44;
 }
 
+/* Se le aplican a los segundos y tercer hijos de tr (independientemente si son th o td)*/
 tbody tr th:nth-child(2), tr td:nth-child(2), tbody tr th:nth-child(3), tr td:nth-child(3){
     background-color: white;
     color: black;
 }
 
-tbody tr th:last-child, tr td:last-child{
+/* Se le aplican a los ultimos hijos de tr (independientemente si son th o td)*/
+tbody tr th:last-child, tbody tr td:last-child{
     background-color: red;
 }
 
 a:hover{
-    background-color: crimson;
+    background-color: crimson; /* Mientras se mantenga el cursor encima del elemento, toma un color rojo mas claro */
 }
 
+/* Mientras se encuentre seleccionado, se aplica este estilo */
 a:active{
-    color: black;
-    background-color: white;
+    color: black; /* Color de la letra negra */
+    background-color: white; /* Color de fondo blanco */
 }
 
-/* ESTILOS EN RELACION A LA LISTA DE VINOS DE LOS ARISTOGATOS*/
+/* ESTILOS EN RELACION A LA LISTA DE VINOS DEL RESTAURANTE LOS ARISTOGATOS*/
+
+/*
+        El div de la lista de vinos:
+    (display: flex; flex-direction: row) se muestra de una forma flexible y en filas
+    (text-align: left) Se alinea a la izquierda los párrafos.
+    (line-height: 3rem) Seria 3 veces el tamano de la fuente del elemento <html>
+    (line-style-type: square) Se aplican las viñetas de forma cuadrada para darle un toque distinto a la lista.
+    */
 #vinos_list{
     display: flex;
     flex-direction: row;
@@ -171,48 +195,34 @@ a:active{
     list-style-type: square;
 }
 
-#vinos_list div{
-    width: 25%;
-}
-
-#vinos_list div ul li{
-    color: white;
-}
-
+/* Se le aplica al primer hijo de la lista del tipo de vino */
 #vinos_list div ul li:first-child{
-    color: #028e44;
+    color: #028e44; /* Pone de color verde la letra del texto */
 }
 
+/* Se le aplica al último hijo de la lista del tipo de vino */
 #vinos_list div ul li:last-child{
-    color: RED;
+    color: RED; /* Pone de color rojo la letra del texto */
 }
 
+/*Este estilo se le aplica a la lista de vinos, dependiendo de su categoria*/
 #vinos_list div ul{
-    list-style-image: url(images/wine.png);
-    list-style-position: inside;
+    list-style-image: url(images/wine.png); /*La viñeta es el icono de una copa y una botella de vino. */
+    list-style-position: inside; /* La posición de esta viñeta es un poco más adentro, pegada al texto. */
 }
 
 /* CLASES RELACIONADAS CON EL PIE DE PAGINA DE LA PAGINA WEB */
-footer{
-    color: white;
-    text-align: center; 
-}
-
-/*
-    SE QUITA LA DECORACION QUE SE LE APLICA AL AÑADIRLE UNA URL
-*/
+/* Se quita la decoración que se le aplica al añadirle una url */
 footer p a{
-    color: white;
     text-decoration: none;
 }
 
+/* La verdad no se aplica, no entiendo la razon de esto. */
 footer p a:link {
     color: greenyellow;
 }
 
-/*
-    AL DARLE CLICK, SE LOGRA VER EL CAMBIO EN EL URL.
-*/
+/* Al darle click, se logra ver el cambio en el url. */
 footer a:focus{
     color: white;
     background-color: black;
