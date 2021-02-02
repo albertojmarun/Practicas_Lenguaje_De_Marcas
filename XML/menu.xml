@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!--
+    @author: Alberto J. Marun I.
+    @version: 1.0
+    @date: February 02, 2021.
+-->
+<menu>
+    <desayuno>
+        <nombre> Gofres Belgas </nombre>
+        <precio moneda="euros"> 5.95 </precio>
+        <descripcion> Dos de nuestros famosos Gofres Belgas con abundante Sirope. </descripcion>
+        <calorias> 650 </calorias>
+    </desayuno>
+
+    <desayuno>
+        <nombre> Gofres Belgas con Fresas </nombre>
+        <precio moneda="euros"> 7.95 </precio>
+        <descripcion> Ligeros gofres belgas cubiertos de fresas y nata montada. </descripcion>
+        <calorias> 900 </calorias>
+    </desayuno>
+
+    <desayuno>
+        <nombre> Gofres Belgas con Frutas del Bosque </nombre>
+        <precio moneda="euros"> 8.95 </precio>
+        <descripcion> Ligeros gofres belgas cubiertos con frutas del bosque y nata montada </descripcion>
+        <calorias> 900 </calorias>
+    </desayuno>
+
+    <desayuno>
+        <nombre> Tostada Francesa </nombre>
+        <precio moneda="euros"> 4.50 </precio>
+        <descripcion> Dos gruesas rebanadas de nuestro pan francés casero. </descripcion>
+        <calorias> 600 </calorias>
+    </desayuno>
+
+    <desayuno>
+        <nombre> Desayuno de la Casa </nombre>
+        <precio moneda="euros"> 6.95 </precio>
+        <descripcion> Dos huevos, bacon o salchicha, tostada y patatas fritas. </descripcion>
+        <calorias> 950 </calorias>
+    </desayuno>
+</menu>
