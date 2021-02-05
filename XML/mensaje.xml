@@ -4,6 +4,17 @@
     @version: 1.0
     @date: February 02, 2021.
 -->
+<!DOCTYPE mensaje [
+    <!ELEMENT mensaje (remite, destinatario, asunto, texto)>
+    <!ELEMENT remite (nombre, email)>
+    <!ELEMENT destinatario (nombre, email)>
+        <!ELEMENT nombre (#PCDATA)>
+        <!ELEMENT email (#PCDATA)>
+    <!ELEMENT asunto (#PCDATA)>
+    <!ELEMENT texto (parrafo*)>
+        <!ELEMENT parrafo (#PCDATA)>
+]>
+
 <mensaje>
     <remite>
         <nombre> Alfredo Reino </nombre>

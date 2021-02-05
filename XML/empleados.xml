@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+<!DOCTYPE empleados[
+    <!ELEMENT
+]>
+-->
+
+<empleados>
+    <empleado sexo="Y" sueldo="1800">
+        <nombre> Alberto Marun </nombre>
+        <edad> 19 </edad>
+    </empleado>
+    
+    <empleado sexo="Y" sueldo="1800">
+        <nombre> Juan Montero </nombre>
+        <edad> 20 </edad>
+    </empleado>
+</empleados>

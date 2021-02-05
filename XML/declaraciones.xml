@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE declaraciones [
+    <!ELEMENT declaraciones (consonante?, variable*)>
+    <!ELEMENT consonante (#PCDATA)>
+    <!ATTLIST consonante
+        valor (3.141592) #REQUIRED>
+    <!ELEMENT variable (#PCDATA)>
+    <!ATTLIST variable tipo (real) #IMPLIED>
+]>
+
+<declaraciones>
+    <consonante valor="3.141592"> PI </consonante>
+    <variable tipo="real"> radio </variable>
+    <variable> area </variable>
+    <variable> longitud </variable>
+</declaraciones>

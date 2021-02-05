@@ -1,0 +1,11 @@
+<!-- VALIDACIÓN XML: DTD 
+    
+    DTD INTERNO
+    <!DOCTYPE elemento raiz[reglas]>
+
+    DTD INTERNO
+    <!DOCTYPE elemento raiz[reglas]>
+
+        DTD INTERNO
+    <!DOCTYPE elemento raiz[reglas]>
+-->

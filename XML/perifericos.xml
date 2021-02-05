@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE perifericos[
+    <!ELEMENT perifericos (periferico*, pantalla)>
+    <!ELEMENT periferico (#PCDATA)>
+    <!ELEMENT pantalla (#PCDATA)>
+]>
+
+<perifericos>
+    <periferico> impresora </periferico>
+    <periferico> monitor </periferico>
+    <periferico> teclado </periferico>
+    <pantalla> LG </pantalla>
+</perifericos>
