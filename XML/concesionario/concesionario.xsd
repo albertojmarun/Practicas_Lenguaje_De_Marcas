@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <xs:element name="concesionario">
+        <xs:complexType>
+            <xs:element name="marca" type="xs:string"/>
+            <xs:element name="modelo" type="xs:string"/>
+            <xs:choice>
+                <xs:element name="cilindrada" type="xs:decimal"/>
+                <xs:element name="caballos" type="xs:decimal"/>
+            </xs:choice>
+            <xs:element name="combustible" type="xs:string"/>
+            <xs:element name="precio" type="xs:positiveInteger"/>
+            <xs:element name="año" use="optional" type="xs:date"/>
+            <xs:element name="color" type="xs:string"/>
+            <xs:element name="interesado" type="xs:string"/>
+            <xs:element name="fecha_limite" type="xs:dateTime"/>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

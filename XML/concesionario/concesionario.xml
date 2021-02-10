@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<concesionario
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="concesionario.xsd"
+provincia="malaga">
+
+    <coches matricula="0511LDP">
+        <marca> </marca>
+        <modelo> </modelo>
+        <cilindrada> </cilindrada>
+        <combustible> </combustible>
+        <precio> </precio>
+        <año> </año>
+        <color> </color>
+        <interesado> </interesado>
+        <fecha_limite> </fecha_limite>
+    </coches>
+</concesionario>
