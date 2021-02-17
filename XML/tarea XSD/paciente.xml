@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <paciente lugar_nacimiento="Cordoba" fecha_nac="1999-01-01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="paciente.xsd"> 
     <datos>
         <nombre>JOSE</nombre>
         <apellidos>ANDALUZ ANDALUZ</apellidos> 
-        <dni>11111111</dni> 
-    </datos> 
+        <dni>11111111</dni>
+    </datos>
     <diagnostico>Positivo Covid19</diagnostico> 
 </paciente>

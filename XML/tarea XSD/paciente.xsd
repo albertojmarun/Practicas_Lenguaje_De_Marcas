@@ -1,34 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="paciente" type="tipoPaciente"/>
+
     <xs:complexType name="tipoPaciente">
         <xs:sequence>
             <xs:element name="datos" type="historial"/>
-            <xs:element name="diagnostico" type="xs:string"/>
+            <xs:element name="diagnostico" minOccurs="0" maxOccurs="1"/>
         </xs:sequence>
+        <xs:attribute name="lugar_nacimiento" type="xs:string"/>
+        <xs:attribute name="fecha_nac" type="xs:date"/>
     </xs:complexType>
     <xs:complexType name="historial">
         <xs:sequence>
-            <xs:element name="nombre"/>
-            <xs:element name="apellidos"/>
-            <xs:element name="dni"/>
+            <xs:element name="nombre" type="xs:string"/>
+            <xs:element name="apellidos" type="xs:string"/>
+            <xs:element name="dni" type="xs:positiveInteger"/>
         </xs:sequence>
     </xs:complexType>
-    <xs:element name="paciente" type="tipoPaciente">
-        <xs:complexType>
-            <xs:sequence>
-                <xs:element name="datos">
-                    <xs:complexType>
-                        <xs:sequence>
-                            <xs:element name="nombre"/>
-                            <xs:element name="apellidos"/>
-                            <xs:element name="dni" type="xs:positiveInteger"/>
-                        </xs:sequence>
-                    </xs:complexType>
-                </xs:element>
-                <xs:element name="diagnostico" minOccurs="0" maxOccurs="1"/>
-            </xs:sequence>
-            <xs:attribute name="lugar_nacimiento" type="xs:string"/>
-            <xs:attribute name="fecha_nac" type="xs:date"/>
-        </xs:complexType>
-    </xs:element>
 </xs:schema>
