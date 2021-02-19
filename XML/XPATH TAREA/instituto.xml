@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instituto>  
+    <alumno>    
+        <grado>DAW</grado>    
+        <nombre>Manuel Guerrilla</nombre>    
+        <fechaMatricula año="2021"/>  
+        <asignatura>Lenguajes</asignatura>
+    </alumno>  
+    <alumno>    
+        <grado>DAW</grado>    
+        <nombre fechaNacimiento="01/03/2002">Ramon Ramirez</nombre>    
+        <fechaMatricula año="2021"/>  
+        <asignatura>Lenguajes</asignatura>
+    </alumno>  
+    <alumno>    
+        <grado>DAM</grado>    
+        <nombre fechaNacimiento="01/03/2002">Ramon Ramirez</nombre>    
+        <fechaMatricula año="2017"/> 
+        <asignatura>Base de Datos</asignatura> 
+    </alumno>
+    <alumno>    
+        <grado>DAW</grado>    
+        <nombre fechaNacimiento="12/03/2004">Maria Garcia</nombre>    
+        <fechaMatricula año="2021"/>  
+        <asignatura>Lenguajes</asignatura>
+    </alumno>  
+    <alumno>    
+        <grado>DAM</grado>    
+        <nombre fechaNacimiento="23/03/2000">Juan Lopez</nombre>    
+        <fechaMatricula año="2021"/> 
+        <asignatura>Base de Datos</asignatura> 
+    </alumno>
+</instituto>
