@@ -7,7 +7,5 @@
 
 <perifericos>
     <periferico> impresora </periferico>
-    <periferico> monitor </periferico>
-    <periferico> teclado </periferico>
     <pantalla> LG </pantalla>
 </perifericos>
