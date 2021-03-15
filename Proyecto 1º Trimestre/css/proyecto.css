@@ -1,0 +1,327 @@
+@font-face{
+    font-family: "SourceCodePro-Regular";
+    src: url(../fonts/SourceCodePro/SourceCodePro-Regular.ttf);
+}
+
+@font-face{
+    font-family: "SourceCodePro-Black";
+    src: url(../fonts/SourceCodePro/SourceCodePro-Black.ttf);
+}
+
+body {
+    font-family: "SourceCodePro-Regular";
+    background-color: #D6F4FF;
+    margin: 0px;
+}
+
+header {
+    top: 0px;
+    background-color: #263238;
+    color: #FFFFFF;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #263238;
+    margin-left: 10px;
+}
+    
+    #menu ul li {
+        text-align: center;
+        float: left;
+    }
+
+    #menu ul li a {
+        text-decoration: none;
+        color: #FFFFFF;
+        display: block;
+        padding: 40px;
+    }
+
+    #menu ul a .logo {
+        float: left;
+        width: 90px;
+        padding-top: 5px;
+    }
+
+h1{
+    font-family: SourceCodePro;
+    text-align: center;
+    padding: 15px 0px;
+    background-color: #6C8D9E;
+    border-radius: 50px;
+}
+
+main {
+    margin-top: 120px;
+    margin-bottom: 30px;
+    width: 80%;
+    margin-left: 9%;
+    margin-right: 9%;
+    border: black;
+    border-radius: 50px;
+    background-color: white;
+    padding-bottom: 30px;
+}
+
+.media_article{
+    width: 30%;
+    margin-left: 2%;
+}
+
+    .media_article h2{
+        font-family: SourceCodePro-Black;
+        text-align: center;
+    }
+
+    .media_article img{
+        padding: 0% 5%;
+        width: 90%;
+        border-radius: 10%;
+    }
+
+    .media_article ol{
+        font-family: SourceCodePro-Regular;
+        margin-left: 5%;
+        padding-bottom: 2%;
+    }
+
+.new_courses{
+    width: 96%;
+    margin: 0% 2%;
+    margin-bottom: auto;
+}
+
+    .new_courses h2{
+        font-family: SourceCodePro-Black;
+        text-align: center;
+    }
+
+    .new_courses img{
+        float: left;
+        padding: 0% 5%;
+        width: 50%;
+        border-radius: 10%;
+    }
+
+    .new_courses ul{
+        font-family: SourceCodePro-Regular;
+        padding-right: 7%;
+    }
+
+    .new_courses .more_info {
+        text-align: center;
+        display: inline-block;
+        padding-left: 5%;
+    }
+
+    .new_courses .about_it{
+        text-align: justify;
+        padding-top: 3%;
+        padding-right: 4%;
+    }
+
+footer {
+    bottom: 0px;
+    background-color: #263238;
+    color: white;
+    width:100%;
+    padding-bottom: 0px;
+}
+
+table {
+    width: 100%;
+    bottom: 0px;
+}
+
+#footer_ac{
+    background-color: #263238;
+    color: white;
+    width: 100%;
+    height: 50px;
+}
+
+#copyright {
+    text-align: left;
+    margin-left: 10px;
+}
+
+.socialmedia {
+    width: 30px;
+    height: 30px;
+    float: right;
+    padding: 0px 4px;
+    margin-right: 10px;
+}
+
+.name{
+    height: 30px;
+    text-align: left;
+    padding-left: 5%;
+    margin: 0% 25%;
+    box-sizing: border-box;
+}
+
+#select_country{
+    height: 30px;
+    padding-left: 5%;
+    margin: 0% 25%;
+}
+
+#comments{
+    height: 200px;
+    margin: 0% 22.5%;
+    padding-left: 5%;
+    padding-bottom: 2%;
+    resize: none;
+}
+
+.form_style{
+    width: 50%;
+    box-shadow: none;
+    border: 2px #000000 solid;
+    border-radius: 10px;
+    font-family: SourceCodePro;
+    color: #000000;
+    background-color: #EDEDED;
+    padding-top: 0.5%;
+}
+
+.form_line{
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+#submit_contact{
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    background-color: #263238;
+    color: #D6F4FF;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#contact_text{
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.column{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.onehundred{
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.prog_language{
+    width: 100%;
+    font-family: SourceCodePro-Regular;
+}
+
+    .prog_language h2{
+        font-family: SourceCodePro-Black;
+        padding: 0% 5%;
+    }
+
+    .prog_language p{
+        text-indent: 1cm;
+        padding: 0% 5%;
+    }
+
+.youtube_video{
+    width: 560px;
+    height: 300px;
+    float: right;
+    display: block;
+    margin: 0% 3%;
+}
+
+hr{
+    width: 96%;
+    border: 3px #263238 solid;
+    border-radius: 10px;
+    margin: 0% 2%;
+}
+
+.notice_row{
+    width: 96%;
+    margin: 0% 2%;
+}
+
+.notice{
+    width: 50%;
+    padding: 0% 2%;
+    margin: 1% 1%;
+}
+
+    .notice h2{
+        text-align: center;
+        font-family: SourceCodePro-Black;
+    }
+
+    .notice p{
+        text-align: center;
+        font-family: SourceCodePro-Regular;
+    }
+
+    .notice img{
+        width: 90%;
+        padding: 0% 5%;
+        border-radius: 10%;
+    }
+
+.exercise{
+    margin: 0.5% 2%;
+    padding: 0% 1%;
+}
+
+.language{
+    width: 75%;
+    text-align: left;
+}
+
+.language h2{
+    text-align: center;
+    font-weight: bold;
+}
+
+.answer{
+    width: 20%;
+    text-align: center;
+}
+
+.icon{
+    width: 60%;
+    margin: 10%;
+}
+
+.blue_border{
+    border-color: #263238;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+    border-radius: 10px;
+}
