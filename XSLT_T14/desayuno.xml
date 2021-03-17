@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="desayuno.xsl"?>
+<?xml-stylesheet type="text/xsl" href="desayuno1.xsl"?>
 <carta tipo="desayunos">
         <desayuno>
-                  <nombre>Smoothie de fruta</nombre>
-                  <precio>4.00</precio>
-                  <descripcion>fresa, plátano y mango.</descripcion>
-                  <calorias>250</calorias>
+                <nombre>Smoothie de fruta</nombre>
+                <precio>4.00</precio>
+                <descripcion>fresa, plátano y mango.</descripcion>
+                <calorias>250</calorias>
         </desayuno>
         <desayuno>
-                  <nombre>Gobres Belgas con fresas</nombre>
-                  <precio>7.95</precio>
-                  <descripcion>Ligeros gofres belgas cubiertos de fresas y nata montada</descripcion>
-                  <calorias>900</calorias>
+                <nombre>Gobres Belgas con fresas</nombre>
+                <precio>7.95</precio>
+                <descripcion>Ligeros gofres belgas cubiertos de fresas y nata montada</descripcion>
+                <calorias>900</calorias>
         </desayuno>
         <desayuno>
-                  <nombre>Huevos revueltos con Tostadas</nombre>
-                  <precio>6.95</precio>
-                  <descripcion>Huevos revueltos con champiñones, pimiento, cebolla y espinaca</descripcion>
-                  <calorias>150</calorias>
+                <nombre>Huevos revueltos con Tostadas</nombre>
+                <precio>6.95</precio>
+                <descripcion>Huevos revueltos con champiñones, pimiento, cebolla y espinaca</descripcion>
+                <calorias>150</calorias>
         </desayuno>
         <desayuno>
-                  <nombre>Tostada Francesa</nombre>
-                  <precio>4.50</precio>
-                  <descripcion>Dos gruesas rebanadas de nuestro pan francés</descripcion>
-                  <calorias>600</calorias>
+                <nombre>Tostada Francesa</nombre>
+                <precio>4.50</precio>
+                <descripcion>Dos gruesas rebanadas de nuestro pan francés</descripcion>
+                <calorias>600</calorias>
         </desayuno>
         <desayuno>
-                  <nombre>Tostón de Salmón</nombre>
-                  <precio>6.95</precio>
-                  <descripcion>Pan tostado, palta, salmón fresco laminado y salsa acevichada</descripcion>
-                  <calorias>350</calorias>
+                <nombre>Tostón de Salmón</nombre>
+                <precio>6.95</precio>
+                <descripcion>Pan tostado, palta, salmón fresco laminado y salsa acevichada</descripcion>
+                <calorias>350</calorias>
         </desayuno>
 </carta>

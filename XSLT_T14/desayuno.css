@@ -1,0 +1,21 @@
+table{
+    border: solid 2px black;
+    box-shadow: 10px 10px 10px;
+}
+
+th{
+    color: white;
+    background-color: #159dcc;
+}
+
+td{
+    border: solid 2px black;
+}
+
+.greater_than{
+    background-color: green;
+}
+
+.less_than{
+    background-color: red;
+}
