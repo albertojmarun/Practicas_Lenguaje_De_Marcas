@@ -242,6 +242,7 @@
                </team>
                <team>
                   <name>R. Sociedad</name>
+                  <escudo>http://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/188.png</escudo>
                   <rank>6</rank>
                   <points>56</points>
                   <played>38</played>
@@ -253,6 +254,7 @@
                </team>
                <team>
                   <name>Granada</name>
+                  <escudo>http://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/5683.png</escudo>
                   <rank>7</rank>
                   <points>56</points>
                   <played>38</played>
@@ -264,6 +266,7 @@
                </team>
                <team>
                   <name>Getafe</name>
+                  <escudo>http://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/1450.png</escudo>
                   <rank>8</rank>
                   <points>54</points>
                   <played>38</played>
@@ -275,6 +278,7 @@
                </team>
                <team>
                   <name>Valencia</name>
+                  <escudo>http://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/191.png</escudo>
                   <rank>9</rank>
                   <points>53</points>
                   <played>38</played>
@@ -286,6 +290,7 @@
                </team>
                <team>
                   <name>Osasuna</name>
+                  <escudo>http://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/450.png</escudo>
                   <rank>10</rank>
                   <points>52</points>
                   <played>38</played>
@@ -297,6 +302,7 @@
                </team>
                <team>
                   <name>Athletic</name>
+                  <escudo>http://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/174.png</escudo>
                   <rank>11</rank>
                   <points>51</points>
                   <played>38</played>
@@ -308,6 +314,7 @@
                </team>
                <team>
                   <name>Levante</name>
+                  <escudo>http://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/855.png</escudo>
                   <rank>12</rank>
                   <points>49</points>
                   <played>38</played>
@@ -319,6 +326,7 @@
                </team>
                <team>
                   <name>Eibar</name>
+                  <escudo>http://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/953.png</escudo>
                   <rank>13</rank>
                   <points>42</points>
                   <played>38</played>
@@ -329,7 +337,8 @@
                   <goals_conceded>56</goals_conceded>
                </team>
                <team>
-                  <name>Valladolid*</name>
+                  <name>Valladolid</name>
+                  <escudo>http://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/192.png</escudo>
                   <rank>14</rank>
                   <points>41</points>
                   <played>37</played>
@@ -341,6 +350,7 @@
                </team>
                <team>
                   <name>Betis</name>
+                  <escudo>http://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/185.png</escudo>
                   <rank>15</rank>
                   <points>41</points>
                   <played>38</played>
@@ -352,6 +362,7 @@
                </team>
                <team>
                   <name>Alavés</name>
+                  <escudo>http://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/173.png</escudo>
                   <rank>16</rank>
                   <points>39</points>
                   <played>38</played>
@@ -362,7 +373,8 @@
                   <goals_conceded>59</goals_conceded>
                </team>
                <team>
-                  <name>Celta*</name>
+                  <name>Celta</name>
+                  <escudo>http://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/176.png</escudo>
                   <rank>17</rank>
                   <points>36</points>
                   <played>37</played>
@@ -374,6 +386,7 @@
                </team>
                <team>
                   <name>Leganés</name>
+                  <escudo>http://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/957.png</escudo>
                   <rank>18</rank>
                   <points>36</points>
                   <played>38</played>
@@ -385,6 +398,7 @@
                </team>
                <team>
                   <name>Mallorca</name>
+                  <escudo>http://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/181.png</escudo>
                   <rank>19</rank>
                   <points>33</points>
                   <played>38</played>
