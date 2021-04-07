@@ -3,12 +3,10 @@
       <title> Ejercicio 2 XQUERY2 </title>
   </head>
   <body>
-  <h1>
   {
     let $season := //competicion
     return <h1> {$season/nombre/text()} - {$season/temporada/text()}</h1>
   }
-  </h1>
     <table>
       <tr>
         <th> Escudo Equipo </th>
