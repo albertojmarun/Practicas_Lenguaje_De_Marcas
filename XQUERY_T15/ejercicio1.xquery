@@ -1,10 +1,10 @@
 <html>
   <head>
-    <title> Ejercicio 1 XQUERY T15 </title>
+    <title> Ejercicio 1 XQUERY T16 </title>
   </head>
-  <body>
-    <h1 style="text-align:center"> Jornada 38 </h1>
-    <table style="border: solid black 3px; text-align: center">
+  <body style="margin: 5% 10%">
+    <h1 style="text-align:center"> Jornada 38 - La Liga - Alberto Marun </h1>
+    <table style="border: solid black 3px; width: 100%; text-align: center">
         <tr style="border: solid black 3px; text-align: center">
           <th style="border: solid black 3px; text-align: center"> Equipo Local </th>
           <th style="border: solid black 3px; text-align: center"> Resultado </th>
@@ -20,9 +20,9 @@
         <td style="border: solid black 3px; text-align: center"> { $match/equipolocal/text() } </td>
         <td style="border: solid black 3px; text-align: center"> { $match/resultadolocal/text() } - { $match/resultadovisitante/text() } </td>
         <td style="border: solid black 3px; text-align: center"> { $match/equipovisitante/text() } </td>
-        <td style="border: solid black 3px; text-align: center; background-color: {if ($match/resultadolocal/text() > $match/resultadovisitante/text() ) then "gray" else "white"}"> </td>
-        <td style="border: solid black 3px; text-align: center; background-color: {if ($match/resultadolocal/text() = $match/resultadovisitante/text() ) then "gray" else "white"}"> </td> 
-        <td style="border: solid black 3px; text-align: center; background-color: {if ($match/resultadolocal/text() < $match/resultadovisitante/text() ) then "gray" else "white"}"> </td>
+        <td style="border: solid black 3px; text-align: center{if ($match/resultadolocal/text() > $match/resultadovisitante/text() ) then "; background-color:gray" else ";"}"> </td>
+        <td style="border: solid black 3px; text-align: center{if ($match/resultadolocal/text() = $match/resultadovisitante/text() ) then "; background-color:gray" else ";"}"> </td>
+        <td style="border: solid black 3px; text-align: center{if ($match/resultadolocal/text() < $match/resultadovisitante/text() ) then "; background-color:gray" else ";"}"> </td>
         </tr>
     }
     </table>
