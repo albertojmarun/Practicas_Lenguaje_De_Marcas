@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss>
+    <channel>
+        <title> MELOBEBO Enterprise </title>
+        <link>https://www.amazon.es/ref=nav_logo</link>
+        <description> The Little Store of MELOBEBO Company </description>
+        <author> Albert J. Marun I.</author>
+        <language> es </language>
+        <pubDate>20 Apr 2021 20:40:46 +0200</pubDate>
+        <lastBuildDate>20 Apr 2021 20:27:46 +0200</lastBuildDate>
+        <item>
+            <title>Coca Cola</title>
+            <precio>0.25€</precio>
+            <description>Bebida de Cola con Azucar y Cafeina</description>
+            <link> https://www.amazon.es/Coca-Cola-Lata-330-Pack-12/dp/B00XA0FJYE/ref=sr_1_9?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=coca+cola&qid=1618943651&sr=8-9 </link>
+            <category>Bebida Gaseosa</category>
+            <image>
+                <title>Lata de Coca Cola</title>
+                <url>https://cronicaglobal.elespanol.com/uploads/s1/16/38/98/0/coca-cola-lata.png</url>
+                <width>150</width>
+                <height>150</height>
+                <description>Lata de Coca Cola de 33cl</description>
+            </image>
+        </item>
+        <item>
+            <title>Pepsi Max</title>
+            <precio>0.32€</precio>
+            <description>Bebida en base de cola con cafeina y sin Azucar</description>
+            <link>https://www.amazon.es/Pepsi-Max-Zero-Bebida-Refrescante/dp/B01FJXB754/ref=sr_1_2?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=pepsi+max&qid=1618943635&sr=8-2 </link>
+            <category>Bebida Gaseosa</category>
+            <image>
+                <title>Pepsi Max</title>
+                <url>https://img2.freepng.es/20180816/xkg/kisspng-pepsi-max-fizzy-drinks-coca-cola-diet-drink-blikje-pepsi-max-de-lunchbus-productlijn-van-cu-5b7617af479e62.1702457915344659672934.jpg</url>
+                <width>150</width>
+                <height>150</height>
+                <description>Foto de Pepsi Max</description>
+            </image>
+        </item>
+        <item>
+            <title>Alhambra</title>
+            <precio>0.54€</precio>
+            <link>https://www.amazon.es/Alhambra-Reserva-1925-Pack-Botellas/dp/B077PXD3B3/ref=sr_1_2?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=Alhambra&qid=1618943673&sr=8-2 </link>
+            <description>Cerveza Española</description>
+            <category>Bebida Alcoholica</category>
+            <image>https://www.loscervecistas.es/wp-content/uploads/2016/09/verde-detalle.png</image>
+        </item>
+        <item>
+            <title>Ron Santa Teresa</title>
+            <precio>6.84€</precio>
+            <link> https://www.amazon.es/Santa-Teresa-Oscuro-Gran-Reserva/dp/B00VQRYW4G/ref=sr_1_3?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=Ron+Santa+Teresa&qid=1618943695&sr=8-3 </link>
+            <description>Ron Venezolano</description>
+            <category>Bebida Alcoholica de Alto Grado alcoholico</category>
+            <image>
+                <title>Botella de Ron Santa Teresa</title>
+                <url>https://www.supermercadosaladar.com/53691-large_default/ron-santa-teresa-gran-reserva-70cl.jpg</url>
+                <width>150</width>
+                <height>150</height>
+                <description>Ultima Botella de Ron Santa Teresa</description>
+            </image>
+        </item>
+        <item>
+            <title>Red Bull</title>
+            <precio>0.28€</precio>
+            <link>https://www.amazon.es/Red-Bull-Bebida-Energ%C3%A9tica-Paquete/dp/B073XPKNT1/ref=sr_1_1_sspa?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=Red+Bull&qid=1618943714&rdc=1&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExNVo3MUMwNjA2UU5YJmVuY3J5cHRlZElkPUEwOTc2MTk5MjlSSFJMM0FFNFRSUSZlbmNyeXB0ZWRBZElkPUEwOTkxMzA1MjlJUU1DM0ZCR1FDVCZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU= </link>
+            <description>Bebida Energizante Azucarada</description>
+            <category>Bebida Energizante</category>
+            <image>
+                <title>Lata de 75ml de Red Bull</title>
+                <url>https://images.ctfassets.net/lcr8qbvxj7mh/2jnZPmCyUicAgUNrJmXL8N/23858f3633f2b27e5b68e95dbd29f0fb/ES_RBED_250_Single-Unit_close_cold_ORIGINAL_canwidth528px.png</url>
+                <width>150</width>
+                <height>150</height>
+                <description>Lata de Red Bull Azucarada</description>
+            </image>
+        </item>
+    </channel>
+</rss>
