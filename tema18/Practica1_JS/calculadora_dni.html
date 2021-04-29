@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title> Calculadora de la Letra DNI</title>
+    </head>
+    <body>
+        <h1> Calculadora de la Letra del DNI </h1>
+        <h2> Alberto J. Marún I.</h2>
+        <h3> Lenguaje de Marcas - DAW </h3>
+
+        <script>
+            numero = prompt("Número de DNI");
+
+            var abecedario = ['T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F', 'P', 'D', 'X', 'B', 'N', 'J', 'Z', 'S', 'Q', 'V', 'H', 'L', 'K', 'E'];
+            numero_letra = numero % 23;
+            var informacion = "<p> DNI: " + numero + abecedario[numero_letra] + "</p>";
+            document.write(informacion);
+
+            var aletorial_number = (Math.random() * 8) + 1;
+            aletorial_number = Math.round(aletorial_number);
+            
+            document.write("El Número Aleatorio es: " + aletorial_number);
+        </script>
+        <script type="text/javaScript">
+
+        </script>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title> Prueba de Funciones </title>
+    </head>
+    <body>
+        <h1> Edad de Jubilación </h1>
+        <script>
+            function persona(nombre, edad, ciudad){
+                this.nombre = nombre;
+                this.edad = edad;
+                this.ciudad = ciudad;
+                this.visualiza = visualiza;
+            }
+            function visualiza(){
+                var information =  "<li>" + this.nombre + " tiene " + this.edad + ", vive en " + this.ciudad + "</li>";
+                document.write(information);
+            }
+        </script>
+
+        <h2> Creamos 3 Objetos y los Mostramos </h2>
+        <script type="text/javaScript">
+            persona1 = new persona('Juan', 19, 'Pamplona');
+            persona2 = new persona('Sabrina', 20, 'Caracas');
+            persona3 = new persona('Camila', 19, 'Munchen');
+
+            persona1.visualiza();
+            persona2.visualiza();
+            persona3.visualiza();
+        </script>
+    </body>
+</html>
