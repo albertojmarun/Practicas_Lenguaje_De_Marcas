@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title> Practica - Tema 19 </title>
+    </head>
+    <body>
+        <h1> Generador de Nombres de Usuarios </h1>
+
+        <script>
+            function username_generator(name, last_name){
+                var username = name.charAt(0) + last_name.split(" ")[0] + "@medac.es";
+                document.write("<p>" + username + "</p>");
+            }
+
+            function password_generator(name, last_name){
+                var password = name.substring(0,2) + last_name.split(" ")[1].substring(0,2) + name.length + "_" + last_name.split(" ")[0].charAt(last_name.split(" ")[0].length - 1);
+                document.write("<p>" + password + "</p>");
+            }
+        </script>
+
+        <script type="text/javaScript">
+            name = prompt("Nombre del Usuario");
+            last_name = prompt("Apellido del Usuario");
+
+            document.write("<p> Hola " + name + " " + last_name + " </p>");
+            document.write("<h2> Usuario </h2>");
+            username_generator(name, last_name);
+
+            document.write("<br>")
+            document.write("<h2> Clave Generada: </h2>");
+            password_generator(name, last_name);
+        </script>
+    </body>
+</html>
