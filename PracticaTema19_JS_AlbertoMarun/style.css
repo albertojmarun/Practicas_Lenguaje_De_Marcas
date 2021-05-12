@@ -1,0 +1,37 @@
+#imagen {
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
+}
+
+table caption{
+    text-transform: uppercase;
+    color: red;
+}
+
+button{
+    width: 40%;
+    height: 30px;
+}
+
+table{
+    width: 80%;
+    margin: 0% 10%;
+}
+
+td{
+    width: 25%;
+}
+
+table, th, td{
+    text-align: center;
+    border: solid black;
+}
+
+#buttons{
+    margin: 0% 30%;
+}
+
+body{
+    text-align: center;
+}

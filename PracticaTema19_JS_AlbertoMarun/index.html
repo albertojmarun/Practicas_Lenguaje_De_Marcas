@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" href="images/Medac_Logo.png" type="image">
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript">
+            window.onload = function () {
+                const TEAM_BADGES = ['images/AtleticoDeMadrid_Badge.png', 'images/RealMadridCF_Badge.png', 'images/FCBarcelona_Badge.png', 'images/Sevilla_Badge.png', 'images/RealSociedad_Badge.png', 'images/Villarreal_Badge.png', 'images/Betis_Badge.png', 'images/Celta_Badge.png', 'images/AthleticClubBilbao_Badge.png', 'images/Granada_Badge.png', 'images/Cadiz_Badge.png', 'images/Osasuna_Badge.png', 'images/Valencia_Badge.png', 'images/Levante_Badge.png', 'images/Getafe_Badge.png', 'images/Alaves_Badge.png', 'images/Valladolid_Badge.png', 'images/Huesca_Badge.png', 'images/Elche_Badge.png', 'images/Eibar_Badge.png'];
+                const TEAM_NAMES = ['Atletico de Madrid', 'FCBarcelona', 'Real Madrid', 'Sevilla', 'Real Sociedad', 'Villarreal', 'Betis', 'Celta', 'Athletic Bilbao', 'Granada', 'Cadiz', 'Osasuna', 'Valencia', 'Levante', 'Getafe', 'Alavés', 'Valladolid', 'Huesca', 'Elche', 'Eibar'];
+                const TEAM_POINTS = [77, 75, 75, 71, 56, 52, 51, 47, 46, 45, 43, 41, 39, 39, 34, 32, 31, 30, 30, 29];
+
+                let actual_position = 0;
+                let $prev_button = document.getElementById("retroceder");
+                let $next_button = document.getElementById("avanzar");
+                let $image = document.getElementById('imagen');
+                let $team_name = document.getElementById('team_name');
+                let $team_situation = document.getElementById('situation');
+                let $team_points = document.getElementById('points');
+            
+                function nextBadge() {
+                    if(actual_position >= TEAM_BADGES.length - 1) {
+                        actual_position = TEAM_BADGES.length - 1;
+                        alert("Has llegado al útlimo equipo de la tabla.");
+                    } else {
+                        actual_position++;
+                    }
+                    changeTeamBadge();
+                }
+            
+                function prevBadge() {
+                    if(actual_position <= 0) {
+                        actual_position = 0;
+                        alert("Has llegado al primer equipo de la tabla");
+                    } else {
+                        actual_position--;
+                    }
+
+                    changeTeamBadge();
+                }
+            
+                function changeTeamBadge () {
+                    $image.style.backgroundImage = `url(${TEAM_BADGES[actual_position]})`;
+                    $team_name.innerText = TEAM_NAMES[actual_position];
+                    $team_points.innerText = TEAM_POINTS[actual_position];
+
+                    if(actual_position == "0"){
+                        $team_situation.style.backgroundColor = "green";
+                    } else if (actual_position >= 17){
+                        $team_situation.style.backgroundColor = "red";
+                    } else{
+                        $team_situation.style.backgroundColor = "white";
+                    }
+                }
+            
+                $next_button.addEventListener('click', nextBadge);
+                $prev_button.addEventListener('click', prevBadge);
+                changeTeamBadge();
+            }
+        </script>
+        <title>Practica Tema 19 - AJMI </title>
+    </head>
+    <body>
+        <h1> Alberto José Marún Indriago </h1>
+        <table>
+            <caption> <strong> LA LIGA 2020/2021 - JORNADA 34 </strong> </caption>
+            <tr>
+                <th colspan="2"> Equipo </th>
+                <th> Puntos </th>
+                <th> Situación </th>
+            </tr>
+            <tr>
+                <td><div id="imagen"></div></td>
+                <td id="team_name"></td>
+                <td id="points"></td>
+                <td id="situation"></td>
+            </tr>
+        </table>
+        <br>
+        <div id="buttons">
+            <button id="retroceder">Retroceder</button>
+            <button id="avanzar">Avanzar</button>
+        </div>
+    </body>
+</html>
